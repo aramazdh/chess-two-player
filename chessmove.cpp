@@ -8,7 +8,6 @@ ChessMove::ChessMove(const int startX, const int startY, const int endX, const i
     endY(endY) {}
 
 bool ChessMove::IsValidMove(const ChessBoard& board) const{
-    //psuedo-legal move generation will generate positions off the board
     if (endX < 0 || endX > 7 || endY < 0 || endY > 7)
         return false;
     ChessPiece* startPiece = board.GetPiece(startX, startY);
