@@ -1,3 +1,3 @@
-# chess-two-player
+### chess-two-player
 Two player chess in Qt.
-Qt5 libs needed. Before build, you need to use qmake.
+Qt5 libraries are required for build.
